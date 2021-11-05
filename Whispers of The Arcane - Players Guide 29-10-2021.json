@@ -9,7 +9,7 @@
 				"authors": [
 					"Arcane"
 				],
-				"version": "2.2.2021",
+				"version": "5.11.2021",
 				"url": "-",
 				"targetSchema": "1.2.0"
 			}
@@ -19,13 +19,13 @@
 	"deity": [
 		{
 			"name": "Lunitari",
-			"alignment": [
-				"N"
-			],
+			"title": "High Goddess of Neutral Magic",
 			"altNames": [
 				"The High Mistress"
 			],
-			"title": "High Goddess of Neutral Magic",
+			"alignment": [
+				"N"
+			],
 			"pantheon": "Ilúvë",
 			"category": [
 				"The Celestial Trio"
@@ -54,14 +54,14 @@
 		},
 		{
 			"name": "Solinari",
+			"title": "High God of Good Magic",
+			"altNames": [
+				"The Platinum Lord"
+			],
 			"alignment": [
 				"N",
 				"G"
 			],
-			"altNames": [
-				"The Platinum Lord"
-			],
-			"title": "High God of Good Magic",
 			"pantheon": "Ilúvë",
 			"category": [
 				"The Celestial Trio"
@@ -82,14 +82,14 @@
 		},
 		{
 			"name": "Nuitari",
+			"title": "High God of Evil Magic",
+			"altNames": [
+				"The Brimstone Lord"
+			],
 			"alignment": [
 				"N",
 				"E"
 			],
-			"altNames": [
-				"The Brimstone Lord"
-			],
-			"title": "High God of Evil Magic",
 			"pantheon": "Ilúvë",
 			"category": [
 				"The Celestial Trio"
@@ -112,15 +112,15 @@
 
 		{
 			"name": "Avandra",
-			"alignment": [
-				"C",
-				"G"
-			],
 			"title": "Goddess of Change and Luck",
 			"altNames": [
 				"The Changebringer"
 			],
-			"province": "Change, Freedom and Luck",
+			"alignment": [
+				"C",
+				"G"
+			],
+			"province": "Adventure, Change, Freedom, Luck and Travel",
 			"pantheon": "Ilúvë",
 			"category": [
 				"The Prime Deities",
@@ -248,20 +248,20 @@
 
 		{
 			"name": "Ioun",
-			"alignment": [
-				"N"
-			],
 			"title": "Goddess of Knowledge",
 			"altNames": [
 				"The Knowing Mistress"
 			],
+			"alignment": [
+				"N"
+			],
+			"province": "Knowledge, Prophecy, Psionics, Skill and Study",
 			"pantheon": "Ilúvë",
 			"category": [
 				"The Prime Deities",
 				"The Red Tower",
 				"The First Four"
 			],
-			"province": "Knowledge, Learning and Teaching",
 			"domains": [
 				"Arcana",
 				"Knowledge"
@@ -390,8 +390,7 @@
 			"name": "Bahamut",
 			"title": "God of Justice and Nobility",
 			"altNames": [
-				"The Platinum Dragon",
-				"Heironeous, The Valorous Knight"
+				"The Platinum Dragon"
 			],
 			"alignment": [
 				"L",
@@ -408,7 +407,7 @@
 				"Life",
 				"War"
 			],
-			"symbol": "Dragon's head in profile or Winged flaming sword",
+			"symbol": "Dragon's head in profile",
 			"symbolImg": {
       			"type": "image",
     				"href": {
@@ -422,7 +421,6 @@
 					"type": "section",
 					"entries": [
 						"Called the Platinum Dragon, Bahamut is the god of justice, protection, nobility, and honor. Lawful good paladins often revere him, and metallic dragons worship him as the first of their kind. Monarchs are crowned in his name. The crest of the Platinum Dragon adorns many halls of high leadership and justice, invoking his will in all matters of justice. To follow him is to look after those who cannot look after themselves.",
-						"Though this is known to few, Bahamut's counterpart in Arvalin is called \"Heironeous\". This aspect of the Platinum Dragon is revered very sporadically, and is less widely known by his title of \"The Valorous Knight\"",
 							{
 								"type": "entries",
 								"name": "Bahamut's Influence",
@@ -462,21 +460,6 @@
 													"Uphold the highest ideals of honor and justice.",
 													"Be constantly vigilant against evil and oppose it on all fronts.",
 													"Protect the weak, liberate the oppressed, and defend just order."
-												]
-											}
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Commandments of Heironeous",
-										"entries": [
-											"While the commandments are quite similar, the city of Drakkenheim in Arvalin knows Heironeous' commandments to be thusly:",
-											{
-												"type": "list",
-												"items": [
-													"The world is a deadly place, filled with perpetual challenges and trails. Battle for justice, with valor, mercy, courage and defend the weak and innocent.",
-													"Danger is to be faced head-on, with calm and resolve.",
-													"Devote yourself to the church, to generosity, and to a lady. Respect all women in general, and exercise courtly love."
 												]
 											}
 										]
@@ -554,14 +537,15 @@
 		},
 		{
 			"name": "Erathis",
-			"alignment": [
-				"L",
-				"N"
-			],
 			"title": "Goddess of Civilization and Invention",
 			"altNames": [
 				"The Lawbearer"
 			],
+			"alignment": [
+				"L",
+				"N"
+			],
+			"provice": "Civilization, Invention, Law and Rule",
 			"pantheon": "Ilúvë",
 			"category": [
 				"The Prime Deities",
@@ -701,14 +685,15 @@
 		},
 		{
 			"name": "Pelor",
+			"title": "God of Time and The Sun",
+			"altNames": [
+				"The Dawnfather"
+			],
 			"alignment": [
 				"N",
 				"G"
 			],
-			"title": "God of The Sun, Light and Agriculture",
-			"altNames": [
-				"The Dawnfather"
-			],
+			"province": "The Sun, Time, Light, Summer and Agriculture",
 			"pantheon": "Ilúvë",
 			"category": [
 				"The Prime Deities",
@@ -851,14 +836,15 @@
 		},
 		{
 			"name": "The Raven Queen",
-			"alignment": [
-				"L",
-				"N"
-			],
 			"title": "Goddess of Death and Winter",
 			"altNames": [
 				"The Matron of Ravens"
 			],
+			"alignment": [
+				"L",
+				"N"
+			],
+			"province": "Death, Fate, Frost, Mortality, Twilight, and Winter",
 			"pantheon": "Ilúvë",
 			"category": [
 				"The Prime Deities",
@@ -997,14 +983,16 @@
 		},
 		{
 			"name": "Sarenrae",
+			"title": "Goddess of Redemption and Healing",
+			"altNames": [
+				"The Everlight",
+				"The Healing Flame"
+			],
 			"alignment": [
 				"N",
 				"G"
 			],
-			"title": "Goddess of Redemption and Healing",
-			"altNames": [
-				"The Everlight"
-			],
+			"province": "Atonement, Compassion, Fire, Glory, Healing, Heroism, Peace, Redemption and Ressurection",
 			"pantheon": "Ilúvë",
 			"category": [
 				"The Prime Deities",
@@ -1288,16 +1276,15 @@
 		},
 		{
 			"name": "Kord",
+			"title": "God of Storms",
+			"altNames": [
+				"The Stormlord"
+			],
 			"alignment": [
 				"C",
 				"N"
 			],
-			"altNames": [
-				"Aegir",
-				"The Stormlord"
-			],
-			"title": "God of Storms",
-			"province": "Battle, Competition and Storms",
+			"province": "Athletics, Bravery, Competition, Courage, Storms and Strength",
 			"pantheon": "Ilúvë",
 			"category": [
 				"The Prime Deities",
@@ -1372,7 +1359,7 @@
 												"type": "list",
 												"items": [
 													"Achieving a great victory",
-													"Smiting the your foes in Kord's name",
+													"Smiting your foes in Kord's name",
 													"Defeating a skilled foe in single combat",
 													"Winning in a display of great strength or skill, or accoplishing a great feat of might"
 												]
@@ -1431,14 +1418,16 @@
 
 		{
 			"name": "Hextor",
+			"title": "God of War and Conquest",
+			"altNames": [
+				"The Scourger",
+				"The Strife Emperor"
+			],
 			"alignment": [
 				"L",
 				"E"
 			],
-			"title": "God of Conquest, War, and Discord",
-			"altNames": [
-				"The Scourger"
-			],
+			"province": "Conflict, Conquest, Discord, Massacres and War",
 			"pantheon": "Ilúvë",
 			"category": [
 				"The Betrayer Gods",
@@ -1465,7 +1454,7 @@
 								"type": "entries",
 								"name": "Hextor's Influence",
 								"entries": [
-									"Hextor plots his conquest of the planes from within the bastion of Banehold.",
+									"Hextor plots his conquest from within the bastion of Banehold.",
 									{
 										"type": "entries",
 										"entries": [
@@ -1575,14 +1564,15 @@
 		},
 		{
 			"name": "Gruumsh",
+			"title": "God of Destruction",
+			"altNames": [
+				"The Ruiner"
+			],
 			"alignment": [
 				"C",
 				"E"
 			],
-			"title": "God of destruction",
-			"altNames": [
-				"The Ruiner"
-			],
+			"province": "Carnage, Destruction, Pillaging, Savageness, Slaughter, Warmongering",
 			"pantheon": "Ilúvë",
 			"category": [
 				"The Betrayer Gods",
@@ -1725,13 +1715,16 @@
 			"name": "Moradin",
 			"title": "God of Creation",
 			"altNames": [
-				"The Allhammer"
+				"The Allhammer",
+				"The All-Father",
+				"Soul Forger",
+				"The Creator"
 			],
 			"alignment": [
 				"L",
 				"G"
 			],
-			"province": "Creation, Crafting and Protection",
+			"province": "Creation, Crafting, Designing, Earth, Protection, Pride and Smithing",
 			"pantheon": "Ilúvë",
 			"category": [
 				"The Prime Deities",
@@ -1760,7 +1753,7 @@
 								"type": "entries",
 								"name": "Moradin's Influence",
 								"entries": [
-									"Moradin lords over the soul forges within the massive tunneled mansion of Erackinor, deep beneath the slopes of the mythical mountain of Solarûd.",
+									"Moradin lords over the soul forges within the massive tunneled mansion of Erackinor, deep beneath the slopes of the mythical mountain of Abbathror.",
 									{
 										"type": "entries",
 										"entries": [
@@ -1883,7 +1876,7 @@
 			"alignment": [
 				"N"
 			],
-			"province": "Nature, Wilderness and The Sea",
+			"province": "Beasts, Critters, Nature, Wilderness and The Sea",
 			"pantheon": "Ilúvë",
 			"category": [
 				"The Prime Deities",
@@ -2027,7 +2020,7 @@
 		},
 		{
 			"name": "Corellon",
-			"title": "God of Magic and The Arts",
+			"title": "God of Magic and Art",
 			"altNames": [
 				"The Archheart"
 			],
@@ -2035,7 +2028,7 @@
 				"C",
 				"G"
 			],
-			"province": "Elvish High Magic, Music, Arts, Crafts, Poetry, and Warfare",
+			"province": "Art, Crafts, Magic, Music, Poetry, and Warfare",
 			"pantheon": "Ilúvë",
 			"category": [
 				"The Prime Deities",
@@ -2094,7 +2087,7 @@
 									},
 									{
 										"type": "entries",
-										"name": "Commandments of Melora",
+										"name": "Commandments of Corellon",
 										"entries": [
 											{
 												"type": "list",
@@ -2187,14 +2180,15 @@
 		},
 		{
 			"name": "Sehanine",
-			"alignment": [
-				"C",
-				"G"
-			],
 			"title": "Goddess of The Moons",
 			"altNames": [
 				"The Moonweaver"
 			],
+			"alignment": [
+				"C",
+				"G"
+			],
+			"province": "Autumn, Dreams, Illusion, Love, Moonlight, Night and The Moons",
 			"pantheon": "Ilúvë",
 			"category": [
 				"The Prime Deities",
@@ -2342,14 +2336,14 @@
 				"The Lord of The Hells"
 			],
 			"alignment": [
-				"C",
+				"L",
 				"E"
 			],
+			"province": "Envy, Indulgence, Tyranny and Wrath",
 			"pantheon": "Ilúvë",
 			"category": [
 				"The Betrayer Gods"
 			],
-			"province": "Envy, Wrath, Indulgence and Tyranny",
 			"domains": [
 				"Knowledge",
 				"Order",
@@ -2494,7 +2488,7 @@
 				"C",
 				"E"
 			],
-			"province": "Deceit, Drow, Lust, Shadows, Slaves, Spiders and Women",
+			"province": "Deceit, Drow, Lies, Lust, Shadows, Spiders and Women",
 			"pantheon": "Ilúvë",
 			"category": [
 				"The Betrayer Gods"
@@ -2629,11 +2623,11 @@
 				"C",
 				"E"
 			],
+			"province": "Annihalation, Entropy, Eternal Darkness, Decay, Insanity and Ruinatoin",
 			"pantheon": "Ilúvë",
 			"category": [
 				"The Betrayer Gods"
 			],
-			"province": "Eternal Darkness, Decay, Entropy, Malign Knowledge, Insanity and Cold",
 			"domains": [
 				"Madness",
 				"Trickery"
@@ -2775,11 +2769,11 @@
 				"L",
 				"E"
 			],
+			"province": "Chromatic Dragons, Greed, Hatred and Revenge",
 			"pantheon": "Ilúvë",
 			"category": [
 				"The Betrayer Gods"
 			],
-			"province": "Chromatic Dragons, Greed, Hatred, Night, Pride and Wrath",
 			"domains": [
 				"Trickery"
 			],
@@ -2919,11 +2913,11 @@
 				"N",
 				"E"
 			],
+			"province": "The Underdark, Enslavement, Imprisonment and Torture",
 			"pantheon": "Ilúvë",
 			"category": [
 				"The Betrayer Gods"
 			],
-			"province": "The Underdark and Imprisonment",
 			"domains": [
 				"Death",
 				"Madness",
@@ -3065,11 +3059,11 @@
 				"N",
 				"E"
 			],
+			"province": "Evil, Coveting, Dark Magic, Knowledge, Secrets and Undeath",
 			"pantheon": "Ilúvë",
 			"category": [
 				"The Betrayer Gods"
 			],
-			"province": "Evil, Knowledge and Dark Magic",
 			"domains": [
 				"Death",
 				"Knowledge"
@@ -3210,11 +3204,11 @@
 				"C",
 				"E"
 			],
+			"province": "Assassins, Darkness, Thievery, Poison and Snakes",
 			"pantheon": "Ilúvë",
 			"category": [
 				"The Betrayer Gods"
 			],
-			"province": "Darkness, Poison, Assassins, Snakes and Serpent-kin",
 			"domains": [
 				"Death",
 				"Trickery"
@@ -3358,14 +3352,14 @@
 
 		{
 			"name": "Akadi",
+			"title": "Primordial of Air",
+			"altNames": [
+				"The Queen of Air"
+			],
 			"alignment": [
 				"C",
 				"N"
 			],
-			"altNames": [
-				"The Queen of Air"
-			],
-			"title": "Primordial of Air",
 			"province": "Air",
 			"pantheon": "Ilúvë",
 			"category": "Primordials",
@@ -3377,14 +3371,14 @@
 		},
 		{
 			"name": "Errevon",
+			"title": "Primordial of Ice",
+			"altNames": [
+				"The Rhimelord"
+			],
 			"alignment": [
 				"N",
 				"E"
 			],
-			"altNames": [
-				"The Rhimelord"
-			],
-			"title": "Primordial of Ice",
 			"province": "Ice",
 			"pantheon": "Ilúvë",
 			"category": "Primordials",
@@ -3397,13 +3391,13 @@
 		},
 		{
 			"name": "Grumbar",
-			"alignment": [
-				"N"
-			],
+			"title": "Primordial of Earth",
 			"altNames": [
 				"King of the Land"
 			],
-			"title": "Primordial of Earth",
+			"alignment": [
+				"N"
+			],
 			"province": "Earth",
 			"pantheon": "Ilúvë",
 			"category": "Primordials",
@@ -3416,14 +3410,14 @@
 		},
 		{
 			"name": "Istishia",
+			"title": "Primordial of Water",
+			"altNames": [
+				"The Riptide"
+			],
 			"alignment": [
 				"C",
 				"E"
 			],
-			"altNames": [
-				"The Riptide"
-			],
-			"title": "Primordial of Water",
 			"province": "Water",
 			"pantheon": "Ilúvë",
 			"category": "Primordials",
@@ -3435,16 +3429,16 @@
 		},
 		{
 			"name": "Kossuth",
-			"alignment": [
-				"N"
-			],
+			"title": "Primordial of Fire",
 			"altNames": [
 				"Kossuth of The Everflame",
 				"The Everflame",
 				"The Firebringer",
 				"The Tyrant-King"
 			],
-			"title": "Primordial of Fire",
+			"alignment": [
+				"N"
+			],
 			"province": "Fire",
 			"pantheon": "Ilúvë",
 			"category": "Primordials",
@@ -3522,18 +3516,17 @@
 				}
 			],
 			"source": "ArcaneWhispers"
-
 		},
 		{
 			"name": "Vaasa",
+			"title": "Primordial of Ash",
+			"altNames": [
+				"The Cinderqueen"
+			],
 			"alignment": [
 				"C",
 				"N"
 			],
-			"altNames": [
-				"The Cinderqueen"
-			],
-			"title": "Primordial of Ash",
 			"province": "Ash",
 			"pantheon": "Ilúvë",
 			"category": "Primordials",
@@ -3546,14 +3539,14 @@
 		},
 		{
 			"name": "Bwimb",
+			"title": "Primordial of Mud",
+			"altNames": [
+				"The Baron of Ooze"
+			],
 			"alignment": [
 				"L",
 				"E"
 			],
-			"altNames": [
-				"The Baron of Ooze"
-			],
-			"title": "Primordial of Mud",
 			"province": "Mud & Ooze",
 			"pantheon": "Ilúvë",
 			"category": "Primordials",
@@ -3565,14 +3558,14 @@
 		},
 		{
 			"name": "Rorn",
+			"title": "Primordial of Magma",
+			"altNames": [
+				"The Raging Volcano"
+			],
 			"alignment": [
 				"C",
 				"E"
 			],
-			"altNames": [
-				"The Raging Volcano"
-			],
-			"title": "Primordial of Magma",
 			"province": "Heat & Rage",
 			"pantheon": "Ilúvë",
 			"category": "Primordials",
@@ -3585,14 +3578,14 @@
 		},
 		{
 			"name": "Asgorath",
-			"alignment": [
-				"N"
-			],
+			"title": "Greater Primordial of Elements",
 			"altNames": [
 				"The World Shaper"
 			],
-			"title": "Greater Primordial of Creation",
-			"province": "Knowledge, Creation, Raw Energy",
+			"alignment": [
+				"N"
+			],
+			"province": "Creation, Elements, Knowledge and Raw Energy",
 			"pantheon": "Ilúvë",
 			"category": "Primordials",
 			"domains": [
@@ -4411,6 +4404,176 @@
 		}
 	],
 	"race": [
+		{
+			"name": "Gem Dragonborn",
+			"source": "FTD",
+			"lineage": "VRGR",
+			"size": [
+				"M",
+				"L"
+			],
+			"speed": 30,
+			"resist": [
+				{
+					"choose": {
+						"from": [
+							"force",
+							"radiant",
+							"psychic",
+							"thunder",
+							"necrotic"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Young dragonborn grow quickly. They walk hours after hatching, attain the size and development of a 10-year-old human child by the age of 3, and reach adulthood by 15. They live to be around 80."
+					]
+				},
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Dragonborn tend to extremes, making a conscious choice for one side or the other in the cosmic war between good and evil (represented by Bahamut and Tiamat, respectively). Most dragonborn are good, but those who side with Tiamat can be terrible villains."
+					]
+				},
+				{
+					"name": "Powerful Build",
+					"entries": [
+						"Dragonborn are taller and heavier than humans, standing well over 6 feet tall and averaging almost 250 pounds. If you are Medium, you count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift. Your size is Medium or Large."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Gem Ancestry",
+					"entries": [
+						"You have a gem dragon ancestor, granting you a special magical affinity. Choose one kind of dragon from the Gem Ancestry table. This determines the damage type for your other traits, as shown in the table.",
+						{
+							"type": "table",
+							"caption": "Gem Ancestry",
+							"colLabels": [
+								"Dragon",
+								"Damage Type"
+							],
+							"colStyles": [
+								"col-6 text-center",
+								"col-6 text-center"
+							],
+							"rows": [
+								[
+									"Amethyst",
+									"Force"
+								],
+								[
+									"Crystal",
+									"Radiant"
+								],
+								[
+									"Emerald",
+									"Psychic"
+								],
+								[
+									"Sapphire",
+									"Thunder"
+								],
+								[
+									"Topaz",
+									"Necrotic"
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Breath Weapon",
+					"entries": [
+						"When you take the {@action Attack} action on your turn, you can replace one of your attacks with an exhalation of magical energy in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC = 8 + your Constitution modifier + your proficiency bonus). On a failed save, the creature takes {@damage 1d10} damage of the type associated with your Gem Ancestry. On a successful save, it takes half as much damage. This damage increases by {@dice 1d10} when you reach 5th level ({@dice 2d10}), 11th level ({@dice 3d10}), and 17th level ({@dice 4d10}).",
+						"You can use your Breath Weapon a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Draconic Resistance",
+					"entries": [
+						"You have resistance to the damage type associated with your Gem Ancestry."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Psionic Mind",
+					"entries": [
+						"You can send telepathic messages to any creature you can see within 30 feet of you. You don't need to share a language with the creature for it to understand these messages, but it must be able to understand at least one language to comprehend them."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Gem Flight",
+					"entries": [
+						"Starting at 5th level, you can use a bonus action to manifest spectral wings on your body. These wings last for 1 minute. For the duration, you gain a flying speed equal to your walking speed and can hover. Once you use this trait, you can't do so again until you finish a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and one other language that you and your DM agree is appropriate for your character."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"ability": [
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"str",
+								"dex",
+								"con",
+								"int",
+								"wis",
+								"cha"
+							],
+							"weights": [
+								2,
+								1
+							]
+						}
+					}
+				},
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"str",
+								"dex",
+								"con",
+								"int",
+								"wis",
+								"cha"
+							],
+							"weights": [
+								1,
+								1,
+								1
+							]
+						}
+					}
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"anyStandard": 1
+				}
+			]
+		},
 		{
 			"name": "Dragonborn",
 			"source": "ArcaneWhispers",
