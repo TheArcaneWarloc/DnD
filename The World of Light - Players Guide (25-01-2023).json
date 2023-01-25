@@ -4513,7 +4513,19 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Celestial",
+							"name": "The Celestial (UA)",
+							"shortName": "Celestial (UA)",
+							"source": "UARevisedClassOptions"
+						}
+					},
+					{
+						"class": {
+							"name": "Warlock",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "The Celestial",
+							"shortName": "Celestial",
 							"source": "XGE"
 						}
 					}
