@@ -4378,9 +4378,9 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Chronurgy Magic (Variant)",
-							"shortName": "Chronurgy (Variant)",
-							"source": "WorldOfLight"
+							"name": "Chronurgy Magic",
+							"shortName": "Chronurgy",
+							"source": "EGW"
 						}
 					}
 				]
@@ -5554,9 +5554,9 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Chronurgy Magic (Variant)",
-							"shortName": "Chronurgy (Variant)",
-							"source": "WorldOfLight"
+							"name": "Chronurgy Magic",
+							"shortName": "Chronurgy",
+							"source": "EGW"
 						}
 					}
 				]
@@ -7745,7 +7745,7 @@
 				{
 					"_": [
 						{
-							"equipmentType": "navigator's tools"
+						"equipmentType": "navigator's tools|phb"
 						},
 						"traveler's clothes|phb",
 						{
@@ -7781,7 +7781,7 @@
 						{
 							"type": "item",
 							"name": "Equipment:",
-							"entry": "A set of {@item navigator's tools}, a set of {@item traveler’s clothes}, a trinket scavenged from a dungeon or other Underdark settlement (or you may roll for a random trinket on the Trinkets table in Chapter 5), and a belt {@item pouch} containing 15gp"
+							"entry": "A set of {@item navigator's tools|phb}, a set of {@item traveler’s clothes|phb}, a {@item trinket|phb} scavenged from a dungeon or other Underdark settlement (or you may roll for a random {@item trinket|phb} on the Trinkets table in Chapter 5), and a belt {@item pouch|phb} containing 15gp"
 						}
 					]
 				},
